@@ -1,0 +1,19 @@
+.search-wrapper {
+  padding: 20px 0;
+}
+
+.video-title {
+  margin-top: 5px !important;
+}
+
+.item .video-item {
+  cursor: pointer;
+}
+
+.video-item.item img {
+  max-width: 100px;
+}
+
+.header.description {
+  padding: 5px 0;
+}
