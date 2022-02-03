@@ -4,7 +4,7 @@ import './VideoItem.css';
 const VideoItem = (props) => {
     return (
         <div className="video-item ">
-           <img src={props.imgUrl} className="ui small image" />
+           <img src={props.imgUrl} className="ui small image" alt="" />
            <div className="content">                
                 <div className="header description">
                     {props.title}

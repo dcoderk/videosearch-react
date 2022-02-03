@@ -11,12 +11,12 @@ const VideoPlayer = (props) => {
 
     const videoId = props.selectedVideo.id.videoId;
 
-    const videoSource = `https://www.youtube.com/embed/${videoId}`;
+    const videoURL = `https://www.youtube.com/embed/${videoId}`;
 
     return (
         <div>
             <div className="ui embed">
-                <iframe src={videoSource}></iframe>
+                <iframe title="This is a unique title"  src={videoURL}></iframe>
             </div>
             <div>
                 <div className="ui medium header video-title">
