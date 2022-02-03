@@ -12,7 +12,7 @@ const App = (props) => {
     // hooks using useState() converted from state
     const [videos, setVideos] = useState([]);
     const [selectedVideo, setSeletectedVideo] = useState(null);
-    const [term, setTerm] = useState('cat videos');
+    const [term, setTerm] = useState('dog videos');
 
     const onVideoSelect = (video) => {
         setSeletectedVideo(video);

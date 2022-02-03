@@ -16,7 +16,7 @@ const VideoPlayer = (props) => {
     return (
         <div>
             <div className="ui embed">
-                <iframe src={videoURL}></iframe>
+                <iframe title="This is a unique title" src={videoURL}></iframe>
             </div>
             <div>
                 <div className="ui medium header video-title">
