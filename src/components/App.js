@@ -26,11 +26,7 @@ const App = (props) => {
     }
 
     // hooks using useEffect converted from lifecycle method
-    useEffect(() => {
-        onSearch(term);
-    }, []);
-
-
+   
     useEffect(() => {
         onSearch(term);
     }, [term]);
