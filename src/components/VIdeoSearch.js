@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react"; // {useState} a hook function
-import { useEffect } from "react/cjs/react.development";
+import { useEffect } from "react";
 
 
 //functional components + hooks
